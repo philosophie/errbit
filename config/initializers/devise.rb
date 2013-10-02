@@ -243,6 +243,8 @@ Devise.setup do |config|
       :skip_info => true
   end
 
+  config.secret_key = ENV["SECRET_TOKEN"]
+
   # ==> Warden configuration
   # If you want to use other strategies, that are not supported by Devise, or
   # change the failure app, you can configure them inside the config.warden block.
