@@ -243,6 +243,7 @@ Devise.setup do |config|
       :skip_info => true
   end
 
+
   config.secret_key = ENV["SECRET_TOKEN"]
 
   # ==> Warden configuration
